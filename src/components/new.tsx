@@ -6,7 +6,7 @@ export function New() {
   return (
     <Link
       href="/animal-endangerment"
-      className="transition-transform hover:-translate-y-1 hover:opacity-80"
+      className="transition-transform duration-500 hover:-translate-y-1 hover:opacity-90"
     >
       <article className="flex flex-col gap-2">
         <Image
