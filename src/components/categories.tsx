@@ -43,7 +43,7 @@ export function Categories() {
       {NavCategories.map((category, categoryIdx) => (
         <Link
           href="/"
-          className={`p-3 text-sm font-semibold ${
+          className={`p-3 text-sm font-semibold  ${
             category.category_active && 'border-b-2 border-blue-700'
           }`}
           key={categoryIdx}

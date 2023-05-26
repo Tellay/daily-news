@@ -12,7 +12,7 @@ export function Header() {
 
       <Link className="flex flex-1 justify-center" href="/">
         <h1 className="font-alt text-[64px] font-bold leading-none hover:opacity-90">
-          daily-news
+          Daily News
         </h1>
       </Link>
 
