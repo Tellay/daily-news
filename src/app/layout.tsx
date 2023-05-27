@@ -12,7 +12,7 @@ const playfairdisplay = Playfair_Display({
 })
 
 export const metadata = {
-  title: 'daily-news',
+  title: 'Daily News',
   description:
     'A website created for an english assignment about air pollution.',
 }
