@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 
 export default function AirPollutionPage() {
   return (
@@ -31,14 +31,16 @@ export default function AirPollutionPage() {
           </h1>
 
           <p className="text-justify text-lg font-normal text-gray-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, neque
-            incidunt nulla placeat illum libero quia fuga tenetur vel voluptatum
-            dicta earum at deleniti officiis asperiores maiores, explicabo
-            assumenda ducimus! Laudantium et voluptates deserunt necessitatibus.
-            Ea dicta nobis sit impedit quasi cupiditate labore ad blanditiis
-            quod repellat! Id dignissimos illo a voluptate perferendis neque
-            fuga illum nostrum vero tenetur adipisci excepturi voluptas, ex
-            temporibus beatae, officia deleniti iure ipsam harum!
+            Air Pollution is the presence of harmful gases, particles and other
+            substances in the atmosphere. These gases are usually released by
+            industrial processes, vehicles, and other human activities.
+            <br />
+            The harmful gases released into the air during these activities
+            include carbon monoxide, sulfur dioxide, nitrogen oxides, ozone, and
+            volatile organic compounds. Additionally, fine particulate matter,
+            which consists of tiny solid or liquid particles suspended in the
+            air, can contribute to air pollution. These pollutants have
+            detrimental effects on both human health and the environment.
           </p>
         </div>
 
@@ -100,5 +102,5 @@ export default function AirPollutionPage() {
         />
       </div> */}
     </main>
-  )
+  );
 }
