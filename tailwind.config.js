@@ -39,6 +39,15 @@ module.exports = {
       pink: {
         100: '#FFA1C9',
       },
+
+      green: {
+        50: '#F4FFF7',
+        100: '#1B592C',
+      },
+
+      brown: {
+        100: '#DF8E70',
+      },
     },
   },
   plugins: [],

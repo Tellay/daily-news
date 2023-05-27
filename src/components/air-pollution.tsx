@@ -12,13 +12,19 @@ export function AirPollution() {
 
   return (
     <article className="relative border-b border-gray-100 py-9">
-      <Image
-        src={'/AirPollution.jpg'}
-        width={5425}
-        height={3617}
-        alt="Example image of air pollution"
-        className="h-[460px] w-full rounded-xl object-cover"
-      />
+      <div className="relative">
+        <Image
+          src={'/AirPollution.jpg'}
+          width={5425}
+          height={3617}
+          alt="Example image of air pollution"
+          className="h-[460px] w-full rounded-xl object-cover"
+        />
+
+        <div className="absolute left-6 top-6 rounded-full bg-green-100 px-6 py-3 text-sm font-semibold text-green-50">
+          Environment
+        </div>
+      </div>
 
       <div className="sticky z-10 mx-11 -mt-40 rounded-2xl bg-white-100 p-16 shadow-xl transition-all duration-500 hover:-translate-y-1">
         <Link href="/airpollution" className="flex flex-col space-y-4">

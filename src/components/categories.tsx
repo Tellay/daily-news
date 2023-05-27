@@ -8,6 +8,11 @@ export function Categories() {
     },
 
     {
+      category_name: 'Environment',
+      category_active: false,
+    },
+
+    {
       category_name: 'Sports',
       category_active: false,
     },
