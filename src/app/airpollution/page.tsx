@@ -31,7 +31,7 @@ export default function AirPollutionPage() {
           </h1>
 
           <p className="text-justify text-lg font-normal text-gray-200">
-            Air Pollution is the presence of harmful gases, particles and other
+            Air Pollution is the presence of harmful gases, particles, and other
             substances in the atmosphere. These gases are usually released by
             industrial processes, vehicles, and other human activities.
             <br />
