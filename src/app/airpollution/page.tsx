@@ -1,9 +1,29 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function AirPollutionPage() {
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const scrollProgress =
+        (window.scrollY / (document.body.scrollHeight - window.innerHeight)) *
+        100;
+      setScroll(scrollProgress);
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <main>
+      <div
+        className="fixed left-0 top-0 z-50 h-1 bg-blue-700"
+        style={{ width: `${scroll}%` }}
+      />
       <article className="py-9">
         <div className="flex items-center gap-2 text-[15px] font-medium">
           <Link
