@@ -1,10 +1,15 @@
 export function WhatIsAirPollution() {
   return (
-    <div className="flex flex-col space-y-6 border-b border-gray-100 py-9">
-      <h1 className="relative w-fit font-alt text-[42px] font-semibold">
+    <div className="flex flex-col space-y-6 border-b border-gray-100 py-9 transition-transform duration-500 hover:-translate-y-1">
+      {/* <h1 className="relative w-fit font-alt text-[42px] font-semibold">
         2. What is Air Pollution?
         <span className="absolute inset-x-0 bottom-2.5 left-0 -z-10 h-3 bg-pink-100" />
+      </h1> */}
+
+      <h1 className="font-alt text-[42px] font-semibold underline decoration-pink-100 decoration-wavy">
+        2. What is Air Pollution?
       </h1>
+
       <div className="flex flex-col space-y-4">
         <p className="text-justify text-lg font-normal text-gray-200">
           Air Pollution is the presence of harmful gases, particles, and other

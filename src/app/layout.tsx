@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${playfairdisplay.variable} mx-auto max-w-app bg-white-100 px-4 font-sans text-blue-700`}
+        className={`${inter.variable} ${playfairdisplay.variable} mx-auto max-w-app bg-white-100 px-5 font-sans text-blue-700`}
       >
         <Header />
         <MobileHeader />

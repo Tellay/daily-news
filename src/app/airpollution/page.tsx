@@ -10,6 +10,7 @@ import { ConsequencesOfAirPollution } from '@/components/airpollution/consequenc
 import { HowToSolveAirPollution } from '@/components/airpollution/how-to-solve-air-pollution'
 import { Conclusion } from '@/components/airpollution/conclusion'
 import { BackHome } from '@/components/airpollution/back-home'
+import { Gallery } from '@/components/airpollution/gallery'
 
 export default function AirPollutionPage() {
   const [scroll, setScroll] = useState(0)
@@ -38,8 +39,8 @@ export default function AirPollutionPage() {
         src="/CityPollution.jpg"
         width={4344}
         height={2896}
-        alt="Nelson"
-        className="mt-2 h-[460px] w-full rounded-xl object-cover"
+        alt="A city polluted"
+        className="mt-2 h-[360px] w-full rounded-xl object-cover md:h-[460px]"
       />
 
       <Index />
@@ -49,6 +50,7 @@ export default function AirPollutionPage() {
       <ConsequencesOfAirPollution />
       <HowToSolveAirPollution />
       <Conclusion />
+      <Gallery />
     </article>
   )
 }
