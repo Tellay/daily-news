@@ -28,7 +28,7 @@ export function AirPollution() {
 
       <div className="sticky z-10 mx-4 -mt-40 rounded-2xl bg-white-100 p-8 shadow-xl transition-all duration-500 hover:-translate-y-1 md:mx-11 md:p-16">
         <Link href="/airpollution" className="flex flex-col space-y-4">
-          <h2 className="font-alt text-[32px] font-semibold hover:underline sm:text-4xl md:text-6xl">
+          <h2 className="font-alt text-[29px] font-semibold hover:underline sm:text-4xl md:text-6xl">
             Clearing the Air: Understanding and Combating Air Pollution
           </h2>
 

@@ -40,7 +40,7 @@ export default function AirPollutionPage() {
         width={4344}
         height={2896}
         alt="A city polluted"
-        className="mt-2 h-[360px] w-full rounded-xl object-cover md:h-[460px]"
+        className="mt-3 h-[360px] w-full rounded-xl object-cover md:h-[460px]"
       />
 
       <Index />
