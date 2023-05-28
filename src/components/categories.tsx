@@ -44,7 +44,7 @@ export function Categories() {
   ]
 
   return (
-    <nav className="mt-12 flex gap-8 overflow-auto border-b border-gray-100 2md:justify-center">
+    <nav className="mt-3 flex gap-8 overflow-auto border-b border-gray-100 sm:mt-12 2md:justify-center">
       {NavCategories.map((category, categoryIdx) => (
         <Link
           href="/"
