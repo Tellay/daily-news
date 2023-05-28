@@ -8,7 +8,7 @@ export function CausesOfAirPollution() {
         <span className="absolute inset-x-0 bottom-2.5 left-0 -z-10 h-3 bg-brown-100" />
       </h1> */}
 
-      <h1 className="font-alt text-[42px] font-semibold underline decoration-brown-100 decoration-wavy">
+      <h1 className="font-alt text-[42px] font-semibold underline decoration-brown-100 decoration-4">
         3. What are the causes of Air Pollution?
       </h1>
 

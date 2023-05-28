@@ -6,7 +6,7 @@ export function Introduction() {
         <span className="absolute inset-x-0 bottom-2.5 left-0 -z-10 h-3 bg-green-60" />
       </h1> */}
 
-      <h1 className="font-alt text-[42px] font-semibold underline decoration-green-60 decoration-wavy">
+      <h1 className="font-alt text-[42px] font-semibold underline decoration-green-60 decoration-4">
         1. Introduction
       </h1>
 
