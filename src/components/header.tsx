@@ -1,18 +1,16 @@
-import { Menu } from 'lucide-react'
 import Link from 'next/link'
 import { SearchBar } from './search-bar'
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between pt-4">
+    <header className="hidden items-center justify-between pt-4 lg:flex">
       <div className="flex flex-1 items-center justify-start gap-6">
-        <Menu className="h-6 w-6 cursor-pointer hover:opacity-80" />
         <SearchBar />
       </div>
 
       <Link className="flex flex-1 justify-center" href="/">
         <h1 className="font-alt text-[64px] font-bold leading-none hover:opacity-90">
-          Daily News
+          daily-news
         </h1>
       </Link>
 

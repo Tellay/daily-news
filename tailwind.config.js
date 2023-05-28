@@ -15,6 +15,11 @@ module.exports = {
       maxWidth: {
         app: '1120px',
       },
+
+      screens: {
+        xs: '476px',
+        '2md': '876px',
+      },
     },
 
     colors: {
@@ -61,6 +66,10 @@ module.exports = {
 
       red: {
         100: '#FF8888',
+      },
+
+      black: {
+        100: '#000000',
       },
     },
   },

@@ -21,21 +21,23 @@ export function AirPollution() {
           className="h-[460px] w-full rounded-xl object-cover"
         />
 
-        <div className="absolute left-6 top-6 rounded-full bg-green-100 px-6 py-3 text-sm font-semibold text-green-50">
+        <div className="absolute left-4 top-4 rounded-full bg-green-100 px-6 py-3 text-xs font-semibold text-green-50 sm:text-sm md:left-6 md:top-6">
           Environment
         </div>
       </div>
 
-      <div className="sticky z-10 mx-11 -mt-40 rounded-2xl bg-white-100 p-16 shadow-xl transition-all duration-500 hover:-translate-y-1">
+      <div className="sticky z-10 mx-4 -mt-40 rounded-2xl bg-white-100 p-8 shadow-xl transition-all duration-500 hover:-translate-y-1 md:mx-11 md:p-16">
         <Link href="/airpollution" className="flex flex-col space-y-4">
-          <h2 className="font-alt text-6xl font-semibold hover:underline">
+          <h2 className="font-alt text-[32px] font-semibold hover:underline sm:text-4xl md:text-6xl">
             Clearing the Air: Understanding and Combating Air Pollution
           </h2>
 
-          <small className="flex items-center gap-4 text-sm font-semibold text-gray-200">
-            João Gonçalves, Diogo Castro, Lucas Zanetti, Ricardo Cardoso{' '}
+          <small className="no- flex items-center gap-4 text-sm font-bold text-gray-200">
+            <div className="truncate">
+              João Gonçalves, Diogo Castro, Lucas Zanetti, Ricardo Cardoso{' '}
+            </div>
             <span className="block h-[2px] w-4 bg-gray-200" />
-            {formattedDate}
+            <div className="whitespace-nowrap">{formattedDate}</div>
           </small>
         </Link>
 

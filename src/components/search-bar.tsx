@@ -4,7 +4,7 @@ export function SearchBar() {
   return (
     <div className="relative">
       <input
-        className="rounded-full border border-blue-700 bg-transparent px-4 py-3 pr-11 text-sm font-medium text-blue-700 outline-none"
+        className="w-full rounded-full border border-blue-700 bg-transparent px-4 py-3 pr-11 text-sm font-medium text-blue-700 outline-none"
         type="text"
         placeholder="Search"
       />
