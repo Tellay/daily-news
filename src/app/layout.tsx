@@ -4,6 +4,7 @@ import './globals.css'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { Header } from '@/components/header'
 import { Categories } from '@/components/categories'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfairdisplay = Playfair_Display({
@@ -21,11 +22,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${playfairdisplay.variable} mx-auto max-w-app bg-white-100 p-4 font-sans text-blue-700`}
+        className={`${inter.variable} ${playfairdisplay.variable} mx-auto max-w-app bg-white-100 px-4 font-sans text-blue-700`}
       >
         <Header />
         <Categories />
         {children}
+        <Footer />
       </body>
     </html>
   )

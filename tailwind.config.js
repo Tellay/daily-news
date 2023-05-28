@@ -28,6 +28,7 @@ module.exports = {
       },
 
       blue: {
+        100: '#47abe5',
         700: '#2B2D42',
       },
 
@@ -42,11 +43,24 @@ module.exports = {
 
       green: {
         50: '#F4FFF7',
+        60: '#B2F1A8',
         100: '#1B592C',
       },
 
       brown: {
         100: '#DF8E70',
+      },
+
+      yellow: {
+        100: '#ffbb54',
+      },
+
+      purple: {
+        100: '#E990FF',
+      },
+
+      red: {
+        100: '#FF8888',
       },
     },
   },

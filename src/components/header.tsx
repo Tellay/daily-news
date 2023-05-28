@@ -4,7 +4,7 @@ import { SearchBar } from './search-bar'
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between pt-4">
       <div className="flex flex-1 items-center justify-start gap-6">
         <Menu className="h-6 w-6 cursor-pointer hover:opacity-80" />
         <SearchBar />
@@ -17,18 +17,12 @@ export function Header() {
       </Link>
 
       <div className="flex flex-1 items-center justify-end gap-6">
-        <Link
-          href="/"
-          className="text-sm font-medium hover:underline hover:opacity-80"
-        >
+        <button className="text-sm font-medium hover:underline hover:opacity-80">
           Sign In
-        </Link>
-        <Link
-          href="/"
-          className="rounded-full bg-blue-700 p-4 text-sm font-medium text-white-50 hover:opacity-90"
-        >
+        </button>
+        <button className="rounded-full bg-blue-700 p-4 text-sm font-medium text-white-50 hover:opacity-90">
           Subscribe Now
-        </Link>
+        </button>
       </div>
     </header>
   )

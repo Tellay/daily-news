@@ -1,5 +1,4 @@
 import { AirPollution } from '@/components/air-pollution'
-import { Footer } from '@/components/footer'
 import { InterestingNews } from '@/components/interesting-news'
 
 export default function Home() {
@@ -7,7 +6,6 @@ export default function Home() {
     <main>
       <AirPollution />
       <InterestingNews />
-      <Footer />
     </main>
   )
 }

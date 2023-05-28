@@ -48,8 +48,9 @@ export function Categories() {
       {NavCategories.map((category, categoryIdx) => (
         <Link
           href="/"
-          className={`p-3 text-sm font-semibold  ${
-            category.category_active && 'border-b-2 border-blue-700'
+          className={`p-3 text-sm font-semibold hover:opacity-90  ${
+            category.category_active &&
+            'border-b-2 border-blue-700 hover:opacity-100'
           }`}
           key={categoryIdx}
         >

@@ -1,20 +1,20 @@
-import { ThumbsDown, ThumbsUp } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+import { ThumbsDown, ThumbsUp } from 'lucide-react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export function AirPollution() {
-  const currentDate = new Date();
-  const formattedDate = currentDate.toLocaleString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
+  const currentDate = new Date()
+  const formattedDate = currentDate.toLocaleString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  })
 
   return (
     <article className="relative border-b border-gray-100 py-9">
       <div className="relative">
         <Image
-          src={"/AirPollution.jpg"}
+          src={'/AirPollution.jpg'}
           width={5425}
           height={3617}
           alt="Example image of air pollution"
@@ -33,8 +33,7 @@ export function AirPollution() {
           </h2>
 
           <small className="flex items-center gap-4 text-sm font-semibold text-gray-200">
-            João Gonçalves, <Link href="https://d6stiny.lol">Diogo Castro</Link>
-            , Lucas Zanetti, Ricardo Cardoso{" "}
+            João Gonçalves, Diogo Castro, Lucas Zanetti, Ricardo Cardoso{' '}
             <span className="block h-[2px] w-4 bg-gray-200" />
             {formattedDate}
           </small>
@@ -53,5 +52,5 @@ export function AirPollution() {
         </div>
       </div>
     </article>
-  );
+  )
 }
