@@ -2,10 +2,12 @@ import { Dot } from 'lucide-react'
 
 export function Index() {
   const PageTopics = [
+    'Introduction',
     'What is Air Pollution?',
     'What are the causes of Air Pollution?',
     'What are the consequences?',
     'How to solve this problem?',
+    'Conclusion',
   ]
 
   return (
