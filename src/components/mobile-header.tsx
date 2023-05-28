@@ -1,6 +1,6 @@
 'use client'
 
-import { Menu } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import { MobileMenu } from './mobile-menu'
 import { useCallback, useState } from 'react'
@@ -14,10 +14,19 @@ export function MobileHeader() {
   return (
     <header className="flex items-center justify-between pt-4 lg:hidden">
       <div className="flex flex-1 items-center justify-between gap-0 sm:justify-start sm:gap-5">
-        <Menu
-          className="h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden"
-          onClick={handleToggleMobileMenu}
-        />
+        <div onClick={handleToggleMobileMenu}>
+          <Menu
+            className={`${
+              isMobileMenuOpen ? 'hidden' : 'block'
+            } h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden`}
+          />
+          <X
+            className={`${
+              isMobileMenuOpen ? 'block' : 'hidden'
+            } h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden`}
+          />
+        </div>
+
         <Link
           className="-mt-1 flex flex-1 justify-center sm:justify-start"
           href="/"
