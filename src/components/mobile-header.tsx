@@ -19,7 +19,7 @@ export function MobileHeader() {
           onClick={handleToggleMobileMenu}
         />
         <Link
-          className="-mt-1 flex flex-1 justify-end sm:justify-start"
+          className="-mt-1 flex flex-1 justify-center sm:justify-start"
           href="/"
         >
           <h1 className="whitespace-nowrap font-alt text-4xl font-bold leading-none hover:opacity-90 sm:text-5xl">
