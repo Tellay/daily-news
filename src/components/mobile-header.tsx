@@ -13,32 +13,20 @@ export function MobileHeader() {
 
   return (
     <header className="flex items-center justify-between pt-4 lg:hidden">
-      <div className="flex flex-1 items-center justify-between gap-0 sm:justify-start sm:gap-5">
-        <div onClick={handleToggleMobileMenu}>
-          <Menu
-            className={`${
-              isMobileMenuOpen ? 'hidden' : 'block'
-            } h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden`}
-          />
-          <X
-            className={`${
-              isMobileMenuOpen ? 'block' : 'hidden'
-            } h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden`}
-          />
-        </div>
-
-        <Link
-          className="-mt-1 flex flex-1 justify-center sm:justify-start"
-          href="/"
-        >
-          <h1 className="whitespace-nowrap font-alt text-4xl font-bold leading-none hover:opacity-90 sm:text-5xl">
-            daily-news
-          </h1>
-        </Link>
+      <div className="flex justify-between" onClick={handleToggleMobileMenu}>
+        <Menu
+          className={`${
+            isMobileMenuOpen ? 'hidden' : 'block'
+          } h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden`}
+        />
+        <X
+          className={`${
+            isMobileMenuOpen ? 'block' : 'hidden'
+          } h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden`}
+        />
       </div>
-
-      <Link className="hidden flex-1 justify-center lg:flex" href="/">
-        <h1 className="whitespace-nowrap font-alt text-[64px] font-bold leading-none hover:opacity-90">
+      <Link className="mx-auto -mt-1" href="/">
+        <h1 className="whitespace-nowrap font-alt text-4xl font-bold leading-none hover:opacity-90 sm:text-5xl">
           daily-news
         </h1>
       </Link>
