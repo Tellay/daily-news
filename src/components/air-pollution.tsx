@@ -18,7 +18,7 @@ export function AirPollution() {
           width={5425}
           height={3617}
           alt="Example image of air pollution"
-          className="h-[460px] w-full rounded-xl object-cover"
+          className="h-[360px] w-full rounded-xl object-cover md:h-[460px]"
         />
 
         <div className="absolute left-4 top-4 rounded-full bg-green-100 px-6 py-3 text-xs font-semibold text-green-50 sm:text-sm md:left-6 md:top-6">
