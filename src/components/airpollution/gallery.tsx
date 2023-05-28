@@ -17,29 +17,29 @@ export function Gallery() {
     },
 
     {
-      width: 5678,
-      heigth: 3786,
+      width: 4535,
+      heigth: 3023,
       image_path: '/CarPolluting.jpg',
       image_alt: 'A car polluting',
     },
 
     {
-      width: 5678,
-      heigth: 3786,
+      width: 2592,
+      heigth: 3888,
       image_path: '/VolcanoPolluting.jpg',
       image_alt: 'A volcano polluting',
     },
 
     {
-      width: 5678,
-      heigth: 3786,
+      width: 4527,
+      heigth: 6000,
       image_path: '/BuildingPolluting.jpg',
       image_alt: 'A house on fire polluting',
     },
 
     {
-      width: 5678,
-      heigth: 3786,
+      width: 3000,
+      heigth: 2000,
       image_path: '/RocketPolluting.jpg',
       image_alt: 'A rocket polluting',
     },
