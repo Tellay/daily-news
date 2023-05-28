@@ -13,7 +13,7 @@ export function MobileHeader() {
 
   return (
     <header className="flex items-center justify-between pt-4 lg:hidden">
-      <div className="flex flex-1 items-center justify-between gap-5 sm:justify-start">
+      <div className="flex flex-1 items-center justify-between gap-0 sm:justify-start sm:gap-5">
         <Menu
           className="h-7 w-7 cursor-pointer hover:opacity-80 sm:hidden"
           onClick={handleToggleMobileMenu}
