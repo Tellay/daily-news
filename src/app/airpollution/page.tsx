@@ -11,9 +11,13 @@ import { HowToSolveAirPollution } from '@/components/airpollution/how-to-mitigat
 import { Conclusion } from '@/components/airpollution/conclusion'
 import { BackHome } from '@/components/airpollution/back-home'
 import { Gallery } from '@/components/airpollution/gallery'
+import { ArrowUpToLine } from 'lucide-react'
+
+import { AnimatePresence, motion } from 'framer-motion'
 
 export default function AirPollutionPage() {
   const [scroll, setScroll] = useState(0)
+  const [showScrollToTopBtn, setShowScrollToTopBtn] = useState(false)
 
   useEffect(() => {
     const onScroll = () => {
@@ -21,6 +25,16 @@ export default function AirPollutionPage() {
         (window.scrollY / (document.body.scrollHeight - window.innerHeight)) *
         100
       setScroll(scrollProgress)
+      console.log(window.scrollY)
+
+      if (window.scrollY > 650) {
+        setShowScrollToTopBtn(true)
+        return
+      }
+
+      if (window.scrollY < 650) {
+        setShowScrollToTopBtn(false)
+      }
     }
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
@@ -32,6 +46,23 @@ export default function AirPollutionPage() {
         className="fixed left-0 top-0 z-50 h-1 bg-blue-700"
         style={{ width: `${scroll}%` }}
       />
+
+      <AnimatePresence>
+        {showScrollToTopBtn && (
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.15 }}
+            onClick={() => window.scrollTo(0, 0)}
+            className={`${
+              showScrollToTopBtn ? 'fixed' : 'hidden'
+            } left-1/2 top-4 z-10 -translate-x-1/2 transform rounded-full bg-blue-700 px-9 py-3 text-white-50 hover:bg-blue-700/90`}
+          >
+            <ArrowUpToLine className="h-6 w-6" />
+          </motion.button>
+        )}
+      </AnimatePresence>
 
       <BackHome />
 
