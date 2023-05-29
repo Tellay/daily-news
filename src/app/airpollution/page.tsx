@@ -57,7 +57,7 @@ export default function AirPollutionPage() {
             onClick={() => window.scrollTo(0, 0)}
             className={`${
               showScrollToTopBtn ? 'fixed' : 'hidden'
-            } left-1/2 top-4 z-10 -translate-x-1/2 transform rounded-full bg-blue-700 px-9 py-3 text-white-50 hover:bg-blue-700/90`}
+            } left-1/2 top-4 z-10 -translate-x-1/2 transform rounded-full bg-blue-700 px-9 py-3 text-white-50 hover:bg-blue-600`}
           >
             <ArrowUpToLine className="h-6 w-6" />
           </motion.button>
