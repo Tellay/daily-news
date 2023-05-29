@@ -2,7 +2,10 @@ import { Dot } from 'lucide-react'
 
 export function CausesOfAirPollution() {
   return (
-    <div className="flex flex-col space-y-6 border-b border-gray-100 py-9 transition-transform duration-500 hover:-translate-y-1">
+    <div
+      id="causes-of-air-pollution"
+      className="flex flex-col space-y-6 border-b border-gray-100 py-9 transition-transform duration-500 hover:-translate-y-1"
+    >
       {/* <h1 className="relative w-fit font-alt text-[42px] font-semibold">
         3. What are the causes of Air Pollution?
         <span className="absolute inset-x-0 bottom-2.5 left-0 -z-10 h-3 bg-brown-100" />

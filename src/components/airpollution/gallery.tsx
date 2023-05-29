@@ -46,7 +46,10 @@ export function Gallery() {
   ]
 
   return (
-    <div className="flex flex-col space-y-6 border-b border-gray-100 py-9">
+    <div
+      id="gallery"
+      className="flex flex-col space-y-6 border-b border-gray-100 py-9"
+    >
       <h1 className="font-alt text-[42px] font-semibold underline decoration-purple-200 decoration-4">
         7. Gallery
       </h1>
