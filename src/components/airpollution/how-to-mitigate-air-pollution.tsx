@@ -18,7 +18,7 @@ export function HowToSolveAirPollution() {
       <div className="flex flex-col space-y-4">
         <p className="text-justify text-lg font-normal text-gray-200">
           There are some things that we can do to mitigate the air pollution
-          effects. Here are some strategies that can help to resolve these
+          effects. Here are some strategies that can help to lessen these
           problems:
         </p>
 

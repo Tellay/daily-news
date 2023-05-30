@@ -15,17 +15,18 @@ export function Introduction() {
 
       <div className="flex flex-col space-y-4">
         <p className="text-justify text-lg font-normal text-gray-200">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum qui
-          repudiandae esse fuga corporis natus quis aspernatur culpa optio
-          adipisci.
+          Air pollution is a major problem in nowaday&apos;s society.
         </p>
         <p className="text-justify text-lg font-normal text-gray-200">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quam
-          veritatis qui perferendis unde doloribus reiciendis voluptatem quasi
-          quidem obcaecati rem consectetur odio placeat itaque magnam, nulla
-          tempore earum, vel deserunt temporibus numquam cupiditate beatae neque
-          animi! Libero optio suscipit repellendus iure voluptates aliquid
-          pariatur earum. Qui doloremque dolores recusandae.
+          Everyday, millions of people worldwide die because of it. So we here
+          at the <i className="italic underline">daily-news</i> decided to
+          spread some awareness about this issue how its provoked, the damages
+          it has on our society and how we can end for good, together.
+        </p>
+        <p className="text-justify text-lg font-normal text-gray-200">
+          To achieve this, we created this page on our website dedicated to this
+          goal in the hopes that its seen by as many people as possible and help
+          spread the word.
         </p>
       </div>
     </div>

@@ -30,7 +30,7 @@ export function CausesOfAirPollution() {
           <li className="flex flex-col space-y-3">
             <div className="flex items-center text-xl font-medium">
               <Dot className="h-8 w-8" />
-              <h3>Natural</h3>
+              <h3 className="underline decoration-wavy">Natural</h3>
             </div>
 
             <p className="ml-8 text-justify text-lg font-normal text-gray-200">
@@ -43,7 +43,7 @@ export function CausesOfAirPollution() {
           <li className="flex flex-col space-y-3">
             <div className="flex items-center text-xl font-medium">
               <Dot className="h-8 w-8" />
-              <h3>Human</h3>
+              <h3 className="underline decoration-wavy">Human</h3>
             </div>
 
             <p className="ml-8 text-justify text-lg font-normal text-gray-200">
