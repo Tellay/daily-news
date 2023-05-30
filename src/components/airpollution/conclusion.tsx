@@ -15,19 +15,17 @@ export function Conclusion() {
 
       <div className="flex flex-col space-y-4">
         <p className="text-justify text-lg font-normal text-gray-200">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum qui
-          repudiandae esse fuga corporis natus quis aspernatur culpa optio
-          adipisci.
-        </p>
-        <p className="text-justify text-lg font-normal text-gray-200">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quam
-          veritatis qui perferendis unde doloribus reiciendis voluptatem quasi
-          quidem obcaecati rem consectetur odio placeat itaque magnam, nulla
-          tempore earum, vel deserunt temporibus numquam cupiditate beatae neque
-          animi! Libero optio suscipit repellendus iure voluptates aliquid
-          pariatur earum. Qui doloremque dolores recusandae.
+          Air pollution is the presence of harmful gases and particles in the
+          atmosphere, primarily caused by human activities. It poses significant
+          risks to human health, leading to respiratory diseases and other
+          health issues, while also negatively impacting the environment through
+          smog and acid rain. Addressing air pollution requires collective
+          efforts, including stricter regulations, adoption of cleaner
+          technologies, and promoting sustainable practices. By taking action to
+          reduce air pollution, we can create a healthier environment and a more
+          sustainable future for generations to come.
         </p>
       </div>
     </div>
-  )
+  );
 }
