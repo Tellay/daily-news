@@ -27,5 +27,5 @@ export function Conclusion() {
         </p>
       </div>
     </div>
-  );
+  )
 }
