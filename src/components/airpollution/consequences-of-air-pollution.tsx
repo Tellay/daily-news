@@ -1,3 +1,5 @@
+import { Dot } from 'lucide-react'
+
 export function ConsequencesOfAirPollution() {
   return (
     <div
@@ -14,19 +16,84 @@ export function ConsequencesOfAirPollution() {
       </h1>
 
       <div className="flex flex-col space-y-4">
-        <p className="text-justify text-lg font-normal text-gray-200">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum qui
-          repudiandae esse fuga corporis natus quis aspernatur culpa optio
-          adipisci.
-        </p>
-        <p className="text-justify text-lg font-normal text-gray-200">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quam
-          veritatis qui perferendis unde doloribus reiciendis voluptatem quasi
-          quidem obcaecati rem consectetur odio placeat itaque magnam, nulla
-          tempore earum, vel deserunt temporibus numquam cupiditate beatae neque
-          animi! Libero optio suscipit repellendus iure voluptates aliquid
-          pariatur earum. Qui doloremque dolores recusandae.
-        </p>
+        <ul className="flex flex-col gap-10 pt-6 md:grid-cols-2">
+          <li className="flex flex-col space-y-3">
+            <div className="flex items-center text-xl font-medium">
+              <Dot className="h-8 w-8" />
+              <h3 className="underline decoration-wavy">Climate Change</h3>
+            </div>
+
+            <p className="ml-8 text-justify text-lg font-normal text-gray-200">
+              Air pollution plays a significant role in climate change.
+              Emissions of greenhouse gases like carbon dioxide, methane, and
+              nitrous oxide contribute to the greenhouse effect, trapping heat
+              in the atmosphere and leading to global warming. This results in
+              rising temperatures, altered weather patterns, more frequent and
+              severe natural disasters, such as hurricanes and heatwaves, and
+              the melting of polar ice caps and glaciers, leading to sea-level
+              rise.
+            </p>
+          </li>
+
+          <li className="flex flex-col space-y-3">
+            <div className="flex items-center text-xl font-medium">
+              <Dot className="h-8 w-8" />
+              <h3 className="underline decoration-wavy">
+                Environmental Degradation
+              </h3>
+            </div>
+
+            <p className="ml-8 text-justify text-lg font-normal text-gray-200">
+              Air pollution has detrimental effects on the environment. Acid
+              rain, caused by pollutants reacting with water vapor in the
+              atmosphere, damages forests, crops, and aquatic ecosystems. It
+              leads to the acidification of lakes and rivers, harming fish and
+              other aquatic life. Airborne pollutants can also settle on soil
+              and contaminate it, affecting agricultural productivity.
+              Additionally, air pollution can harm plant life, reducing crop
+              yields and disrupting ecosystems.
+            </p>
+          </li>
+
+          <li className="flex flex-col space-y-3">
+            <div className="flex items-center text-xl font-medium">
+              <Dot className="h-8 w-8" />
+              <h3 className="underline decoration-wavy">Ozone Depletion</h3>
+            </div>
+
+            <p className="ml-8 text-justify text-lg font-normal text-gray-200">
+              Certain air pollutants, such as chlorofluorocarbons (CFCs),
+              contribute to the depletion of the ozone layer in the Earth&apos;s
+              stratosphere. The ozone layer shields the planet from harmful
+              ultraviolet radiation from the sun. Thinning of the ozone layer
+              increases UV radiation exposure, leading to higher risks of skin
+              cancer, cataracts, and weakened immune systems in humans. It also
+              negatively affects marine ecosystems, agricultural productivity,
+              and the overall balance of ecosystems.
+            </p>
+          </li>
+
+          <li className="flex flex-col space-y-3">
+            <div className="flex items-center text-xl font-medium">
+              <Dot className="h-8 w-8" />
+              <h3 className="underline decoration-wavy">
+                Adverse Health Effects
+              </h3>
+            </div>
+
+            <p className="ml-8 text-justify text-lg font-normal text-gray-200">
+              Air pollution significantly affects human health, both in the
+              short term and the long term. The inhalation of polluted air can
+              lead to respiratory problems such as asthma, bronchitis, and other
+              chronic obstructive pulmonary diseases. Fine particulate matter
+              and toxic gases can penetrate deep into the lungs, causing
+              inflammation, reduced lung function, and increasing the risk of
+              respiratory infections. Prolonged exposure to air pollution is
+              also associated with cardiovascular diseases, lung cancer, and
+              even premature death.
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
   )

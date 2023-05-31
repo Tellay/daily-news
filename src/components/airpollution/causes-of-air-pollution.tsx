@@ -47,10 +47,10 @@ export function CausesOfAirPollution() {
             </div>
 
             <p className="ml-8 text-justify text-lg font-normal text-gray-200">
-              Human Humans are of course the main contributors to this problem.
-              This is due to our history of building countless factories
-              worldwide, the overuse of gasoline/diesel transports, huge fire,
-              and many more.
+              Humans are of course the main contributors to this problem. This
+              is due to our history of building countless factories worldwide,
+              the overuse of gasoline/diesel transports, huge fire, and many
+              more.
             </p>
           </li>
         </ul>
