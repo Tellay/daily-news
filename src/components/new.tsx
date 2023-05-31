@@ -39,7 +39,7 @@ export function New({
           alt={img.alt}
           width={img.width}
           height={img.height}
-          className="rounded-xl object-cover"
+          className="h-[230px] rounded-xl object-cover"
         />
 
         <div className="my-4 flex items-center justify-between">
