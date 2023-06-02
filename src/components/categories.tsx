@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 export function Categories() {
@@ -51,16 +50,15 @@ export function Categories() {
   return (
     <nav className="mt-3 flex gap-8 overflow-auto border-b border-gray-100 sm:mt-12 2md:justify-center">
       {NavCategories.map((category, categoryIdx) => (
-        <Link
-          href="/"
-          className={`p-3 text-sm font-semibold hover:opacity-90  ${
+        <p
+          className={`cursor-pointer p-3 text-sm font-semibold hover:opacity-90  ${
             category.category_active &&
             'border-b-2 border-blue-700 hover:opacity-100'
           }`}
           key={categoryIdx}
         >
           {category.category_name}
-        </Link>
+        </p>
       ))}
     </nav>
   )

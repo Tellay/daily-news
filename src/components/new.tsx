@@ -28,7 +28,7 @@ export function New({
   createdAt,
 }: INew) {
   return (
-    <div className="cursor-not-allowed transition-transform duration-500 hover:-translate-y-1 hover:opacity-90">
+    <div className="cursor-pointer transition-transform duration-500 hover:-translate-y-1 hover:opacity-90">
       <article className="flex flex-col gap-2">
         <Image
           src={img.path}
