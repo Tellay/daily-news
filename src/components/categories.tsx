@@ -1,15 +1,20 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 export function Categories() {
+  const pathname = usePathname()
+
   const NavCategories = [
     {
       category_name: 'News',
-      category_active: true,
+      category_active: pathname === '/',
     },
 
     {
       category_name: 'Environment',
-      category_active: false,
+      category_active: pathname === '/airpollution',
     },
 
     {

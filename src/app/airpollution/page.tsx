@@ -25,7 +25,6 @@ export default function AirPollutionPage() {
         (window.scrollY / (document.body.scrollHeight - window.innerHeight)) *
         100
       setScroll(scrollProgress)
-      console.log(window.scrollY)
 
       if (window.scrollY > 650) {
         setShowScrollToTopBtn(true)
