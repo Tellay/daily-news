@@ -1,7 +1,7 @@
 import { Dot } from 'lucide-react'
 import Link from 'next/link'
 
-export function Index() {
+export function Home() {
   const PageTopics = [
     {
       topic_name: 'Introduction',
@@ -47,7 +47,7 @@ export function Index() {
       </h1> */}
 
       <h1 className="font-alt text-[42px] font-semibold underline decoration-purple-100 decoration-4">
-        Index
+        Home
       </h1>
 
       <ol className="space-y-1.5 text-lg font-medium">

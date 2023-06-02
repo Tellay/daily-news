@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
-import { Index } from '@/components/airpollution'
+import { Home } from '@/components/airpollution/home'
 import { Introduction } from '@/components/airpollution/introduction'
 import { WhatIsAirPollution } from '@/components/airpollution/what-is-air-pollution'
 import { CausesOfAirPollution } from '@/components/airpollution/causes-of-air-pollution'
@@ -73,7 +73,7 @@ export default function AirPollutionPage() {
         className="mt-3 h-[360px] w-full rounded-xl object-cover md:h-[460px]"
       />
 
-      <Index />
+      <Home />
       <Introduction />
       <WhatIsAirPollution />
       <CausesOfAirPollution />
