@@ -1,6 +1,5 @@
 import { Eye, ThumbsDown, ThumbsUp } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
 
 interface INew {
   link: string
@@ -29,10 +28,7 @@ export function New({
   createdAt,
 }: INew) {
   return (
-    <Link
-      href={link}
-      className="transition-transform duration-500 hover:-translate-y-1 hover:opacity-90"
-    >
+    <div className="cursor-not-allowed transition-transform duration-500 hover:-translate-y-1 hover:opacity-90">
       <article className="flex flex-col gap-2">
         <Image
           src={img.path}
@@ -70,6 +66,6 @@ export function New({
           {title}
         </big>
       </article>
-    </Link>
+    </div>
   )
 }
